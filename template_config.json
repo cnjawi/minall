@@ -1,0 +1,34 @@
+{
+	"default_model": "qwt",
+	"system_msg": "You are a helpful assistant.",
+	"platforms": {
+		"aliyun": {
+			"url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+			"api_key": "your-api-key",
+			"models": {
+				"qwt": {
+					"name": "qwen-turbo",
+					"type": "chat"
+				},
+				"qwq": {
+					"name": "qwq-plus-latest",
+					"type": "reasoner"
+				}
+			}
+		},
+		"deepseek": {
+			"url": "https://api.deepseek.com/chat/completions",
+			"api_key": "your-api-key",
+			"models": {
+				"dsv3": {
+					"name": "deepseek-chat",
+					"type": "chat"
+				},
+				"dsr1": {
+					"name": "deepseek-reasoner",
+					"type": "reasoner"
+				}
+			}
+		}
+	}
+}
