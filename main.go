@@ -102,7 +102,11 @@ func main() {
 		Help(confdir, models)
 
 	default: // all arguments are parsed as a message
-		msg := strings.Join(flag.Args(), " ")
+		FlagSet0.Parse(os.Args[1:])
+		if !models.IsValidModel(*modelAbbr, []string{"chat", "reasoner"}) {
+			Fatal("Invalid Model: " + *modelAbbr)
+		}
+		msg := strings.Join(FlagSet0.Args(), " ")
 		Quest(models[*modelAbbr], []Message{
 			{"system", *systemMsg},
 			{"user", msg},
