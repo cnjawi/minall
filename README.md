@@ -1,4 +1,4 @@
-# askqwen
+# minall
 
 use LLM directly from terminal (useful for copying and pasting markdown/latex contents), written in Go.
 
@@ -34,5 +34,6 @@ Models defined in config file:
   dsr1   -- deepseek-reasoner
   qwt    -- qwen-turbo-latest
   qwp    -- qwen-plus-latest
-
 ```
+
+models are defined my user in the config file
