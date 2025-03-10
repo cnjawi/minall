@@ -66,7 +66,6 @@ func main() {
 	targetLang := FlagSet1.String("t", "Chinese", "specify target language using its full English name")
 	domain := FlagSet1.String("d", "", "describe the domain of the text")
 
-	// define subcommands
 	if len(os.Args) < 2 {
 		Help(confdir, models)
 		os.Exit(0)

@@ -4,7 +4,7 @@ use LLM directly from terminal (useful for copying and pasting markdown/latex co
 
 API referrences are [here](https://help.aliyun.com/zh/model-studio/developer-reference/use-qwen-by-calling-api).
 
-help page:
+## help page:
 ```
 PS> minall help
 use LLM directly from terminal.
@@ -36,4 +36,4 @@ Models defined in config file:
   qwp    -- qwen-plus-latest
 ```
 
-models are defined my user in the config file
+models are defined by user in the config file

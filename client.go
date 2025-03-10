@@ -23,6 +23,7 @@ func cmpBytes(a, b []byte) bool {
 	return true
 }
 
+// send a request to chat/reasoner model
 func Quest(model Model, messages []Message) string {
 	// 创建http客户端
 	client := &http.Client{}

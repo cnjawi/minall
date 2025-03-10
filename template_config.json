@@ -1,7 +1,7 @@
 {
 	"default_model": "qwt",
-	"system_msg": "You are a helpful assistant.",
 	"default_translator": "mtt",
+	"system_msg": "You are a helpful assistant.",
 	"platforms": {
 		"aliyun": {
 			"url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
